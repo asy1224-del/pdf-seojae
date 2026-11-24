@@ -3,8 +3,8 @@
 //   설치: 그 판의 화면(HTML)과 묶음 파일을 모두 받아 둔다 → 기다림 → 앱의 「새 판이 있습니다」 알림을 누르거나
 //   앱을 완전히 닫았다 열면 바뀐다 → 지난 판 캐시를 지운다(글자 인식 캐시는 둠).
 //   화면(HTML)은 저장본 우선: 와이파이가 약해도 첫 화면을 기다리지 않는다. 새 판은 sw.js가 바뀌는 것으로 안다.
-const VERSION = "0.66.1-e55b8030";
-const ASSETS = ["./assets/barorder-CqCBGrQo.js","./assets/covers-GKpGOxJC.js","./assets/handwriting-E6IvI6sZ.js","./assets/index-DPz0v9l7.css","./assets/index-DgqlnYkn.js","./assets/notesheets-DK-OnM0t.js","./assets/notesui-NWTzxVIn.js","./assets/oldhangul-sans-BJjuKyTN.woff2","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/pdfconst-B9TX_4z5.js","./assets/reader-D-9ZOLs4.js","./assets/searchui-M1q1gOqc.js","./assets/settings-BN3k0ajR.js","./assets/storageui-BcJtEyvE.js","./assets/taps-CJo1JLr5.js","./assets/viewer-Dk2WeCB8.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
+const VERSION = "0.67.0-8674325c";
+const ASSETS = ["./assets/barorder-DmHZKtnp.js","./assets/covers-dFLHQp9p.js","./assets/handwriting-DdT-tl5f.js","./assets/index-5oA5nVqi.css","./assets/index-BBD9DOfv.js","./assets/notesheets-C2-DI65e.js","./assets/notesui-D5xAzN-Y.js","./assets/oldhangul-sans-BJjuKyTN.woff2","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/pdfconst-B9TX_4z5.js","./assets/reader-BV-KEkt5.js","./assets/searchui-BuNbYwux.js","./assets/settings-DkWciMle.js","./assets/storageui-C8oBRkGJ.js","./assets/taps-DHEQXclj.js","./assets/viewer-Dk2WeCB8.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
 const PREFIX = 'pdf-reader-app-';
 const CACHE = PREFIX + VERSION;
 const SHELL_KEY = new URL('./', self.registration.scope).href;
