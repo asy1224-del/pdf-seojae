@@ -3,8 +3,8 @@
 //   설치: 그 판의 화면(HTML)과 묶음 파일을 모두 받아 둔다 → 기다림 → 앱의 「새 판이 있습니다」 알림을 누르거나
 //   앱을 완전히 닫았다 열면 바뀐다 → 지난 판 캐시를 지운다(글자 인식 캐시는 둠).
 //   화면(HTML)은 저장본 우선: 와이파이가 약해도 첫 화면을 기다리지 않는다. 새 판은 sw.js가 바뀌는 것으로 안다.
-const VERSION = "0.68.1-44918505";
-const ASSETS = ["./assets/barorder-CSGFqdwl.js","./assets/covers-Dm_heXbb.js","./assets/handwriting-CxE8zJd_.js","./assets/index-C7VND9hC.css","./assets/index-DE0WKmTI.js","./assets/notesheets-B6LajECW.js","./assets/notesui-DpEH6Td1.js","./assets/oldhangul-sans-BJjuKyTN.woff2","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/pdfconst-B9TX_4z5.js","./assets/reader-mtoTBSMs.js","./assets/searchui-REOFU8dG.js","./assets/settings-g2VSbN3P.js","./assets/storageui-B74MHW0q.js","./assets/taps-BO2lRtUF.js","./assets/viewer-Dk2WeCB8.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
+const VERSION = "0.69.0-3ff19009";
+const ASSETS = ["./assets/barorder-D9DtPonS.js","./assets/covers-BmCMlZj6.js","./assets/fileops-cX__7euP.js","./assets/handwriting-Bhk0ujjW.js","./assets/index-Clh9FoAN.js","./assets/index-lUjjwDvf.css","./assets/notes-BtyLjtrV.js","./assets/notesheets-Nlvdxu0L.js","./assets/notesui-V3rrT27c.js","./assets/oldhangul-sans-BJjuKyTN.woff2","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/pdfconst-B9TX_4z5.js","./assets/reader-BL4sfg16.js","./assets/searchui-BK4ScPXq.js","./assets/settings-A6WbUEoD.js","./assets/storageui-Dfgi2BQN.js","./assets/taps-DeDCmdxy.js","./assets/viewer-Dk2WeCB8.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
 const PREFIX = 'pdf-reader-app-';
 const CACHE = PREFIX + VERSION;
 const SHELL_KEY = new URL('./', self.registration.scope).href;
