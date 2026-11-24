@@ -1,0 +1,1 @@
+const s="6.5.438",a=[["vertical","세로 스크롤"],["horizontal","가로 스크롤"],["single","1페이지"],["double","2페이지"]];function r(t,o){const[n,c]=t.convertToViewportPoint(o[0],o[1]),[e,i]=t.convertToViewportPoint(o[2],o[3]);return[n,c,e,i]}export{a as M,s as P,r as v};
