@@ -3,8 +3,8 @@
 //   설치: 그 판의 화면(HTML)과 묶음 파일을 모두 받아 둔다 → 기다림 → 앱의 「새 판이 있습니다」 알림을 누르거나
 //   앱을 완전히 닫았다 열면 바뀐다 → 지난 판 캐시를 지운다(글자 인식 캐시는 둠).
 //   화면(HTML)은 저장본 우선: 와이파이가 약해도 첫 화면을 기다리지 않는다. 새 판은 sw.js가 바뀌는 것으로 안다.
-const VERSION = "0.59.0-e4478d41";
-const ASSETS = ["./assets/barorder-BhCdsnD-.js","./assets/index-CBkInn14.css","./assets/index-Dta9_xOL.js","./assets/notesheets-B9od-I9_.js","./assets/notesui-Dm9-vRry.js","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/reader-BPIJeBTf.js","./assets/searchui-DPgvFUKX.js","./assets/settings-BrcSTtNL.js","./assets/storageui-CUQKfZs8.js","./assets/taps-CQ-jaZI3.js","./assets/viewer-BuL2YKPi.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
+const VERSION = "0.60.0-1a0a664f";
+const ASSETS = ["./assets/barorder-DdVj7gLD.js","./assets/index-C1XC0v6s.js","./assets/index-CBkInn14.css","./assets/notesheets-pS-_gJDU.js","./assets/notesui-DrHwPWyJ.js","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/reader-DF6EZ7tJ.js","./assets/searchui-CW7YENEy.js","./assets/settings-S34DYfj-.js","./assets/storageui-C8KZEQc6.js","./assets/taps-BtNAwmxz.js","./assets/viewer-BuL2YKPi.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
 const PREFIX = 'pdf-reader-app-';
 const CACHE = PREFIX + VERSION;
 const SHELL_KEY = new URL('./', self.registration.scope).href;
