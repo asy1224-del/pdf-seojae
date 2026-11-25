@@ -3,8 +3,8 @@
 //   설치: 그 판의 화면(HTML)과 묶음 파일을 모두 받아 둔다 → 기다림 → 앱의 「새 판이 있습니다」 알림을 누르거나
 //   앱을 완전히 닫았다 열면 바뀐다 → 지난 판 캐시를 지운다(글자 인식 캐시는 둠).
 //   화면(HTML)은 저장본 우선: 와이파이가 약해도 첫 화면을 기다리지 않는다. 새 판은 sw.js가 바뀌는 것으로 안다.
-const VERSION = "0.72.0-668f03b2";
-const ASSETS = ["./assets/barorder-CNggpevb.js","./assets/covers-BkqhPk2E.js","./assets/fileops-Cx7M_2Ab.js","./assets/files-actions-BSoTRvS5.js","./assets/handwriting-g5Ns7tSy.js","./assets/index-D1mNtDKi.js","./assets/index-dvw07Qyt.css","./assets/notes-CGsXj4NE.js","./assets/notesheets-k1ytbIZZ.js","./assets/notesui-BcAQT-43.js","./assets/oldhangul-sans-BJjuKyTN.woff2","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/pdfconst-B9TX_4z5.js","./assets/reader-CRQuo4oh.js","./assets/searchui-BNwtwun5.js","./assets/settings-zI3-g4cR.js","./assets/storageui-ByY0qEhV.js","./assets/taps-DLllXd3Q.js","./assets/viewer-Dk2WeCB8.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
+const VERSION = "0.72.1-e3de68f4";
+const ASSETS = ["./assets/barorder-Be4asRYW.js","./assets/covers-BvJeQpjt.js","./assets/fileops-IfpuJe20.js","./assets/files-actions-DZ2Y5n5i.js","./assets/handwriting-ApDQ_iXk.js","./assets/index-Ck6bM322.js","./assets/index-dvw07Qyt.css","./assets/notes-DxWFUlmQ.js","./assets/notesheets-CDqJ2tkG.js","./assets/notesui-j86uaph8.js","./assets/oldhangul-sans-BJjuKyTN.woff2","./assets/opfs-worker-DrJoTbMF.js","./assets/pdf.worker.min-CIqJB0yW.mjs","./assets/pdfconst-B9TX_4z5.js","./assets/reader-D1GIcPxr.js","./assets/searchui-BR3N0b3B.js","./assets/settings-CXQDbG7O.js","./assets/storageui-BnHLOtl5.js","./assets/taps-CFTebBNt.js","./assets/viewer-Dk2WeCB8.js","./icons/cat-book.svg","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512.png","./icons/logo.svg","./manifest.webmanifest","./pdfjs-wasm/jbig2.wasm","./pdfjs-wasm/openjpeg.wasm","./pdfjs-wasm/qcms_bg.wasm"];
 const PREFIX = 'pdf-reader-app-';
 const CACHE = PREFIX + VERSION;
 const SHELL_KEY = new URL('./', self.registration.scope).href;
